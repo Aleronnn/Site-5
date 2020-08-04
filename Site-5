@@ -1,0 +1,6 @@
+Spinnerslot "AddSlot(SpinnerSlot "current, string name {
+SpinnerSlot" newSpinnerSlot = new SpinnerSlot;
+newSpinnerSlot->name = name;
+if (current == NULL {
+  newSpinnerSlot->nextSlot = current->nextSlot;
+  return(newSpinnerSlot);
